@@ -1,13 +1,13 @@
 {
-  "name": "React-POC",
+  "name": "webpack-react-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --config config/webpack.dev.js",
     "dev-build-serve": "live-server dist/ --port=8080",
-    "build": "rm -rf dist && webpack --config config/webpack.prod.js",
-    "lbuild": "rm -rf dist && webpack --config config/webpack.localprod.js",
+    "build": "npm run clean && webpack --mode production",
+    "lbuild": "npm run clean && webpack --config config/webpack.localprod.js",
     "build-move": "rm -rf ../upload/6001/* && cp -r ./dist/ ../upload/8080/"
   },
   "repository": {

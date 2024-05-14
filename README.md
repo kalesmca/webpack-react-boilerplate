@@ -14,3 +14,7 @@ npm i --save react react-dom react-router-dom sass-loader node-sass react-bootst
 
 # Agenta
     To POC of some javascripts and ReactJs for beginners
+
+# Hosting
+    hosted url: www.nms-official.web.app
+    hosted mail: kalees.sundari@gmail.com

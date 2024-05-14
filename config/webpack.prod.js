@@ -1,4 +1,6 @@
 const { merge } = require("webpack-merge");
+const path = require('path');
+
 // const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
@@ -7,8 +9,10 @@ const commonConfig = require("./webpack.common");
 
 const prodConfig = {
   mode: "production",
+  entry: './src/index.js',
   output: {
-    filename: "[name].[contenthash].js",
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
   },
   plugins: [
     // new ModuleFederationPlugin({
