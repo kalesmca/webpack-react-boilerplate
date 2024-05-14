@@ -11,12 +11,6 @@ dependencies
 
 npm i --save react react-dom react-router-dom sass-loader node-sass react-bootstrap bootstrap
 
-scb dependencies
 
-npm i --save @scb/proton-components-react
-
-
-used proton components:
-
-Icons
-http://story-book.nextgendev.sg.standardchartered.com/?path=/docs/html-css-icons-all--all-icons
+# Agenta
+    To POC of some javascripts and ReactJs for beginners
