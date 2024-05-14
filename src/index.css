@@ -2,6 +2,8 @@ body{
     margin-top: -20px;
 }
 .header-container{
+  display: flex;
+    justify-content: space-between;
     position: fixed;
     background: #3D4A66;
     width: 100%;
@@ -68,7 +70,7 @@ body{
     color: #fff;
     position: fixed;
     cursor: pointer;
-    left: 200px;
+    left: 20px;
     font-size: 20px;
     margin-top: 20px; 
     transition: 0.5s;
